@@ -110,21 +110,11 @@ footer {
 
 
 /* Ajustes para móviles */
-@media screen and (max-width: 1024px) {
-    .categorias {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 95%;
+@media screen and (max-width: 768px) {
+    main, section {
+        width: 90%;
     }
-    .categorias td {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        margin-bottom: 20px; /* Espacio entre las secciones */
-    }
-    header img {
-        width: 100px;
+    footer {
+        max-width: 90%;
     }
 }
-
